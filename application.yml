@@ -16,4 +16,4 @@ jwt:
 
 # Dynamic Test
 config:
-  message: Halo ini dari dev
+  message: Halo ini dari global
