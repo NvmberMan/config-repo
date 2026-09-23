@@ -1,19 +1,19 @@
-spring
-  data
-    redis
-      host=localhost
-      port=6379
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
 
 # RestTemplate Configuration
-resttemplate
-  connect-timeout=5000
-  read-timeout=5000
+resttemplate:
+  connect-timeout: 5000
+  read-timeout: 5000
 
 # JWT Configuration
-jwt
-  secret-key=jjlaCTLptvOMSnesdmZbN2U/aL/623kNWTzPk3OHlrk=
-  expiration-time=60s
+jwt:
+  secret-key: jjlaCTLptvOMSnesdmZbN2U/aL/623kNWTzPk3OHlrk=
+  expiration-time: 60s
 
 # Dynamic Test
-config
-  message=Halo ini dari dev
+config:
+  message: Halo ini dari dev
